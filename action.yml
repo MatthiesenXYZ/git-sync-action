@@ -3,7 +3,7 @@ description: 'Action to Sync your repo to a remote repo, such as GitLab'
 
 branding:
   icon: upload-cloud
-  color: light-blue
+  color: blue
 
 inputs:
   target-url:
