@@ -20,7 +20,7 @@ jobs:
     - uses: actions/checkout@v4
       with:
         fetch-depth: 0
-    - uses: MatthiesenXYZ/git-sync-action@v1.0.1
+    - uses: MatthiesenXYZ/git-sync-action@v1.1
       with:
         # Such as https://gitlab.com/matthiesenxyz/astro-ghostcms.git
         target-url: ${{ secrets.GITLAB_URL }}
